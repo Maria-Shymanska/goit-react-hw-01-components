@@ -1,8 +1,8 @@
 .profile {
   text-align: center;
-  border: 2px solid darkgrey;
+  border: 2px solid red;
   border-radius: 5px;
-  width: 300px;
+  width: 500px;
   margin: 0 auto;
   margin-top: 50px;
   padding-top: 10px;
@@ -24,13 +24,14 @@
   font-weight: bold;
   color: gray;
 }
+
 .stats {
   padding: 0;
   margin: 0;
   list-style: none;
   display: flex;
   justify-content: center;
-  height: 80px;
+  height: 100px;
 }
 
 .item {
@@ -39,7 +40,8 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 100px;
+  width: 170px;
+  height: 100px;
 }
 
 .label {
