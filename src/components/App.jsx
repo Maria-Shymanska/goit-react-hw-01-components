@@ -3,10 +3,10 @@ import statistic from 'data/data.json';
 import friendsData from 'data/friends.json';
 import transactions from 'data/transactions.json';
 
-import { Profile } from 'components/Profile/Profile';
-import { Container } from 'components/Container/Container';
-import { Statistic } from 'components/Statistics/Statistics';
-import { FriendList } from 'components/FriendList/FriendList';
+import { Profile } from './Profile/Profile';
+import { Container } from './Container/Container';
+import { Statistics } from './Statistics/Statistics';
+import { FriendList } from './FriendList/FriendList';
 import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory';
 
 export const App = () => {
@@ -23,8 +23,8 @@ export const App = () => {
       </Container>
 
       <Container title="Task 2. Statistics">
-        <Statistic title="Upload stats" stats={statistic} />
-        <Statistic stats={statistic} />
+        <Statistics title="Upload stats" stats={statistic} />
+        <Statistics stats={statistic} />
       </Container>
 
       <Container title="Task 3. FriendList">
