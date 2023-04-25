@@ -1,5 +1,6 @@
-.transactionHistory {
-  width: 550px;
+.container {
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+  margin: auto;
   margin-left: auto;
   margin-right: auto;
   color: black;
@@ -7,23 +8,36 @@
   border: 2px;
   border-style: double;
   text-align: center;
-  background-color: beige;
+  background-color: #00bcd5;
 }
 
-.header {
+.headTr {
   border-bottom: 5px;
   border-style: groove;
   background-color: aqua;
 }
 
-.transactionHistory .rowItem,
-.transactionHistory .dataItem {
-  padding: 10px;
-  border: 1px solid #ccc;
+.bodyTr:nth-child(2n) {
+  background-color: gray;
 }
 
-.transactionHistory .dataItem:hover {
-  position: relative;
-  z-index: 1;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+.th {
+  min-width: 100px;
+  padding: 15px;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+.td {
+  padding: 15px 40px;
+  border-right: 1px solid grey;
+  border-left: 1px solid gray;
+}
+
+.td:nth-child(2) {
+  text-align: right;
+}
+
+.td:nth-child(3) {
+  text-align: center;
 }
