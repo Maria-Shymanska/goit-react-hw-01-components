@@ -6,5 +6,6 @@
 .title {
   display: block;
   text-align: center;
-  margin: 15px 0;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
